@@ -1,1 +1,131 @@
+1. Nano is a command-line text editor(like vim) for any server/VM(virtual machine). It is the default editor of choice for most server/Vm. It is usually pre-installed with the server/vm for most cases.
 
+2. Although Vim is the most popular command line editor but Nano is more beginner friendly and easy to start with.
+
+3. Check whether Nano is installed by default or not using the command: "which nano". Output will be like "/usr/bin/nano".
+
+4. If Nano is not installed, install Nano by using the below command: "sudo apt install nano". "sudo" command is used to change permission from read-only to read-write.
+
+5. To start using Nano, run the bewlo commands:
+        I. "nano" - this command creates new temporary buffer
+        II. "nano <filename>" - creates new file
+
+
+6. Here is a full list of standard nano text editor commands. These commands are based on the default keybindings for GNU nano:
+
+        I. File Operations:
+        Ctrl+O: Save the current file (Write Out).
+
+        Ctrl+S: Save file without prompting.
+
+        Ctrl+X: Exit nano (prompts to save if the file is modified).
+
+        Ctrl+R: Insert another file into the current file.
+
+        II. Cursor Movement:
+        Ctrl+F: Move forward one character.
+
+        Ctrl+B: Move backward one character.
+
+        Ctrl+P: Move to the previous line.
+
+        Ctrl+N: Move to the next line.
+
+        Ctrl+A: Move to the beginning of the current line.
+
+        Ctrl+E: Move to the end of the current line.
+
+        Ctrl+V: Move forward one page.
+
+        Ctrl+Y: Move backward one page.
+
+        Ctrl+_ (Ctrl+Shift+-): Go to a specific line and column.
+
+        III. Editing Commands:
+        Ctrl+D: Delete the character under the cursor.
+
+        Ctrl+H: Delete the character to the left of the cursor (Backspace).
+
+        Ctrl+K: Cut (kill) the current line or selected text.
+
+        Ctrl+U: Uncut (paste) the last cut text.
+
+        Alt+6: Copy the current line or selected text.
+
+        Alt+T: Cut from the cursor to the end of the file.
+
+        Alt+J: Justify the current paragraph.
+
+        IV. Search and Replace:
+        Ctrl+W: Search for text.
+
+        Alt+W: Repeat the last search.
+
+        Ctrl+: Search and replace.
+
+        V. Undo and Redo:
+        Alt+U: Undo the last action.
+
+        Alt+E: Redo the last undone action.
+
+        VI. Text Selection
+        Alt+A: Start or stop text selection.
+
+        Alt+6: Copy selected text.
+
+        Ctrl+K: Cut selected text.
+
+        VII. Miscellaneous:
+        Ctrl+G: Open the help menu.
+
+        Ctrl+C: Show the current cursor position (line and column).
+
+        Alt+C: Turn constant cursor position display on or off.
+
+        Alt+N: Turn line numbers on or off.
+
+        Alt+P: Display the position of the cursor in percentages.
+
+        Alt+X: Toggle the visibility of the help lines at the bottom.
+
+        VIII. Meta (Alt) Key Commands:
+        Alt+A: Start/stop text selection.
+
+        Alt+6: Copy selected text.
+
+        Alt+U: Undo.
+
+        Alt+E: Redo.
+
+        Alt+T: Cut to the end of the file.
+
+        Alt+J: Justify the current paragraph.
+
+        Alt+C: Toggle constant cursor position display.
+
+        Alt+N: Toggle line numbers.
+
+        Alt+P: Show cursor position in percentages.
+
+        Alt+X: Toggle help lines.
+
+        IX. Macros:
+        Ctrl+Q: Start recording a macro.
+
+        Ctrl+Q again: Stop recording a macro.
+
+        Ctrl+P: Play back the recorded macro.
+
+        X. Spell Checking:
+        Ctrl+T: Run spell check (requires spell to be installed and configured).
+
+        XI. Suspending Nano:
+        Ctrl+Z: Suspend nano and return to the shell (use fg to return to nano).
+
+        XII. Other Useful Commands:
+        Alt+Y: Enable/disable syntax highlighting (if supported).
+
+        Alt+R: Read file into the current buffer.
+
+        XIII. How to Access Help in Nano:
+        Press Ctrl+G to open the full help menu, which lists all available commands.
