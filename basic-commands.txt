@@ -10,8 +10,11 @@
         I. "nano" - this command creates new temporary buffer
         II. "nano <filename>" - creates new file
 
+6. Files and folders can be created using the bewlo commands:
+        I. To create new folder - mkdir
+        II. To create new file - nano <filename>/touch <fielname>
 
-6. Here is a full list of standard nano text editor commands. These commands are based on the default keybindings for GNU nano:
+7. Here is a full list of standard nano text editor commands. These commands are based on the default keybindings for GNU nano:
 
         I. File Operations:
         Ctrl+O: Save the current file (Write Out).
